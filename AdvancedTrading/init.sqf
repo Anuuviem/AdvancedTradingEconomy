@@ -35,6 +35,8 @@ switch (DZE_ecoMult) do {
 	//default:	{DZE_buyMult = 1; 		DZE_sellMult = 1;};
 };
 
+diag_log format ["[ECONOMY] Using Economy! ~You Buy %1 Percent, You Sell %2 Percent", DZE_buyMult, DZE_sellMult];
+
 if (isNil "Z_traderData" or {count Z_traderData == 0}) exitWith {
 	localize "STR_EPOCH_TRADE_ERROR" call dayz_rollingMessages;
 };
