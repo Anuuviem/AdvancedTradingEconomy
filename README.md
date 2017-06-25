@@ -19,33 +19,6 @@ open your Description.ext and insert
 
 somewhere near the top, my file is heavily customized but I have it just underneath CfgSounds and working flawless.
 
-OPTIONAL
-For Testing purposes, I have inserted this diag_log at the bottom of my init so I can see what the market will be like today
-
-switch (DZE_ecoMult) do {
-	case 0: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 200 Percent, You Sell 10 Percent";};
-	case 1: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 190 Percent, You Sell 25 Percent";};
-	case 2: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 180 Percent, You Sell 30 Percent";};
-	case 3: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 175 Percent, You Sell 40 Percent";};
-	case 4: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 160 Percent, You Sell 50 Percent";};
-	case 5: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 150 Percent, You Sell 60 Percent";};
-	case 6: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 150 Percent, You Sell 75 Percent";};
-	case 7: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 130 Percent, You Sell 80 Percent";};
-	case 8: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 120 Percent, You Sell 90 Percent";};
-	case 9: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 110 Percent, You Sell 100 Percent";};
-	case 10: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 100 Percent, You Sell 110 Percent";};
-	case 11: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 90 Percent, You Sell 125 Percent";};
-	case 12: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 80 Percent, You Sell 130 Percent";};
-	case 13: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 75 Percent, You Sell 140 Percent";};
-	case 14: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 60 Percent, You Sell 150 Percent";};
-	case 15: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 50 Percent, You Sell 160 Percent";};
-	case 16: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 40 Percent, You Sell 175 Percent";};
-	case 17: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 30 Percent, You Sell 180 Percent";};
-	case 18: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 20 Percent, You Sell 190 Percent";};
-	case 19: 		{diag_log "[ECONOMY] Using Economy! ~You Buy 10 Percent, You Sell 200 Percent";};
-	//default: 		{diag_log "[ECONOMY] Using Economy Standard Stock, Standard Prices! ~100 Percent, 50 Percent";};
-};
-
 Config Options
 
 in dayz_code\actions\advancedTrading\init.sqf youll find the code block that actually modifies the trader prices, currently heavily unbalanced but working and posting this toengage the community on the idea!
