@@ -22,7 +22,7 @@ somewhere near the top, my file is heavily customized but I have it just underne
 Config Options
 
 in dayz_code\actions\advancedTrading\init.sqf youll find the code block that actually modifies the trader prices, currently heavily unbalanced but working and posting this toengage the community on the idea!
-
+```
 switch (DZE_ecoMult) do {
 	case 0:	{DZE_buyMult = 2;	DZE_sellMult = 0.5;};
 	case 1:	{DZE_buyMult = 1.9;	DZE_sellMult = 0.6;};
@@ -37,3 +37,4 @@ switch (DZE_ecoMult) do {
 	case 10:{DZE_buyMult = 2.5;	DZE_sellMult = 1;}; //wildcard!
 	case 11:{DZE_buyMult = 0.7;	DZE_sellMult = 2;}; //wildcard!
 };
+```
