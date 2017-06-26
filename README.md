@@ -8,7 +8,7 @@ copy Advanced trading folder to dayz_code\actions\ in your mission folder (or be
 Open your init.sqf and insert
 
 if (isNil "DZE_ecoMult") then {
-	DZE_ecoMult = (round(random 10));
+	DZE_ecoMult = (round(random 12));
 };
 
 just before   // EPOCH CONFIG VARIABLES END //
@@ -34,4 +34,6 @@ switch (DZE_ecoMult) do {
 	case 7:	{DZE_buyMult = 0.9;	DZE_sellMult = 1.3;};
 	case 8:	{DZE_buyMult = 0.8;	DZE_sellMult = 1.4;};
 	case 9:	{DZE_buyMult = 0.7;	DZE_sellMult = 1.5;};
+	case 10:{DZE_buyMult = 2.5;	DZE_sellMult = 1;}; //wildcard!
+	case 11:{DZE_buyMult = 0.7;	DZE_sellMult = 2;}; //wildcard!
 };
