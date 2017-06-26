@@ -281,7 +281,7 @@ class Category_489 {
 	};
 	class vil_MP5_EOTech {
 		type = "trade_weapons";
-		buy[] = {12500,"worth"};
+		buy[] = {25000,"worth"};
 		sell[] = {10000,"worth"};
 	};
 	class vil_Glock {

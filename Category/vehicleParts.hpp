@@ -31,8 +31,8 @@ class Category_677 {
 	};
 	class ItemFuelcan {
 		type = "trade_items";
-		buy[] = {25,"worth"};
-		sell[] = {10,"worth"};
+		buy[] = {100,"worth"};
+		sell[] = {40,"worth"};
 	};
 	class ItemFuelcanEmpty {
 		type = "trade_items";
@@ -41,12 +41,12 @@ class Category_677 {
 	};
 	class ItemJerrycan {
 		type = "trade_items";
-		buy[] = {50,"worth"};
-		sell[] = {20,"worth"};
+		buy[] = {250,"worth"};
+		sell[] = {100,"worth"};
 	};
 	class ItemJerrycanEmpty {
 		type = "trade_items";
-		buy[] = {25,"worth"};
-		sell[] = {10,"worth"};
+		buy[] = {100,"worth"};
+		sell[] = {40,"worth"};
 	};
 };

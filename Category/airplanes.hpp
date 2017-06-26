@@ -37,7 +37,7 @@ class Category_517 {
 	class MV22_DZ {
 		type = "trade_any_vehicle";
 		buy[] = {312500,"worth"};
-		sell[] = {150000,"worth"};
+		sell[] = {125000,"worth"};
 	};
 	class C130J_US_EP1_DZ {
 		type = "trade_any_vehicle";

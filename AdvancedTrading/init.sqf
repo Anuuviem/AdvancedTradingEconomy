@@ -22,6 +22,8 @@ switch (DZE_ecoMult) do {
 	case 7:	{DZE_buyMult = 0.9;	DZE_sellMult = 1.3;};
 	case 8:	{DZE_buyMult = 0.8;	DZE_sellMult = 1.4;};
 	case 9:	{DZE_buyMult = 0.7;	DZE_sellMult = 1.5;};
+	case 10:{DZE_buyMult = 2.5;	DZE_sellMult = 1;}; //wildcard!
+	case 11:{DZE_buyMult = 0.7;	DZE_sellMult = 2;}; //wildcard!
 };
 
 diag_log format ["[ECONOMY] Using Economy! ~You Buy %1 Percent, You Sell %2 Percent", DZE_buyMult, DZE_sellMult];

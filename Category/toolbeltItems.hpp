@@ -1,18 +1,18 @@
 class Category_679 {
 	class ItemWatch {
 		type = "trade_weapons";
-		buy[] = {2000,"worth"};
+		buy[] = {2500,"worth"};
 		sell[] = {1000,"worth"};
 	};
 	class ItemCompass {
 		type = "trade_weapons";
 		buy[] = {6000,"worth"};
-		sell[] = {3000,"worth"};
+		sell[] = {2400,"worth"};
 	};
 	class ItemMap {
 		type = "trade_weapons";
 		buy[] = {6000,"worth"};
-		sell[] = {3000,"worth"};
+		sell[] = {2400,"worth"};
 	};
 	class ItemGPS {
 		type = "trade_weapons";

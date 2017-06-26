@@ -1,7 +1,7 @@
 class Category_1012 {
 	class CVPI_Patrol {
 		type = "trade_any_vehicle";
-		buy[] = {100000,"worth"};
+		buy[] = {200000,"worth"};
 		sell[] = {80000,"worth"};
 	};
 	class CVPI_Trooper_Patrol {
@@ -16,7 +16,7 @@ class Category_1012 {
 	};
 	class CVPI_NYPD_Patrol {
 		type = "trade_any_vehicle";
-		buy[] = {100000,"worth"};
+		buy[] = {200000,"worth"};
 		sell[] = {80000,"worth"};
 	};
 	class CVPI_HighwaySL_Patrol {
@@ -26,12 +26,12 @@ class Category_1012 {
 	};
 	class CVPI_UnmarkedB_Patrol {
 		type = "trade_any_vehicle";
-		buy[] = {100000,"worth"};
+		buy[] = {200000,"worth"};
 		sell[] = {80000,"worth"};
 	};
 	class CVPI_UnmarkedG_Patrol {
 		type = "trade_any_vehicle";
-		buy[] = {100000,"worth"};
+		buy[] = {200000,"worth"};
 		sell[] = {80000,"worth"};
 	};
 	class CVPI_LAPD_Patrol {
@@ -41,7 +41,7 @@ class Category_1012 {
 	};
 	class CVPI_UnmarkedW_Patrol {
 		type = "trade_any_vehicle";
-		buy[] = {100000,"worth"};
+		buy[] = {200000,"worth"};
 		sell[] = {80000,"worth"};
 	};
 	class CVPI_LAPDSL_Patrol {
@@ -56,7 +56,7 @@ class Category_1012 {
 	};
 	class policecar {
 		type = "trade_any_vehicle";
-		buy[] = {100000,"worth"};
+		buy[] = {200000,"worth"};
 		sell[] = {80000,"worth"};
 	};
 };
