@@ -21,7 +21,7 @@ while {true} do { //while true so basically == always run script loop except for
 					[0.8,1.4], //select 8
 					[0.7,1.5], //select 9
 					[2.5,1.0], //select 10
-					[0.7,2.0]  //select 11
+					[0.8,2.0]  //select 11
 				];
 	_rand = random(count _multArray); //just generate our random var which will count the number of arrays in _multArray and pull a random from it
 	_sleep = 1800; //30 min sleep cycle
