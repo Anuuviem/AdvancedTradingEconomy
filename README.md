@@ -10,14 +10,14 @@ open your fn_selfActions.sqf and find // All Traders block of code around line 1
 youll see
 ```
 if (DZE_ConfigTrader) then {
-					_buyV = player addAction [localize "STR_EPOCH_PLAYER_289", "\z\addons\dayz_code\actions\AdvancedTrading\init.sqf",(_traderMenu select 0), 999, true, false];
-					s_player_parts set [count s_player_parts,_buyV];
+	_buyV = player addAction [localize "STR_EPOCH_PLAYER_289", "\z\addons\dayz_code\actions\AdvancedTrading\init.sqf",(_traderMenu select 0), 999, true, false];
+	s_player_parts set [count s_player_parts,_buyV];
 ```
 and change to
 ```
 if (DZE_ConfigTrader) then {
-					_buyV = player addAction [localize "STR_EPOCH_PLAYER_289", "dayz_code\actions\AdvancedTrading\init.sqf",(_traderMenu select 0), 999, true, false];
-					s_player_parts set [count s_player_parts,_buyV];
+	_buyV = player addAction [localize "STR_EPOCH_PLAYER_289", "dayz_code\actions\AdvancedTrading\init.sqf",(_traderMenu select 0), 999, true, false];
+	s_player_parts set [count s_player_parts,_buyV];
 ```
 
 Open your init.sqf and insert
