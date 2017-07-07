@@ -2,8 +2,23 @@
 Applies a random variable to modify trader prices on server startup
 
 Install
+This all assumes you already have custom compiles.sqf and fn_selfActions.sqf. Especially considering you should have installed zupas single currency to even make use of this script!
 
 copy Advanced trading folder to dayz_code\actions\ in your mission folder (or be sure to change the paths with wherever you install it!)
+
+open your fn_selfActions.sqf and find // All Traders block of code around line 1044 for me
+youll see
+```
+if (DZE_ConfigTrader) then {
+					_buyV = player addAction [localize "STR_EPOCH_PLAYER_289", "\z\addons\dayz_code\actions\AdvancedTrading\init.sqf",(_traderMenu select 0), 999, true, false];
+					s_player_parts set [count s_player_parts,_buyV];
+```
+and change to
+```
+if (DZE_ConfigTrader) then {
+					_buyV = player addAction [localize "STR_EPOCH_PLAYER_289", "dayz_code\actions\AdvancedTrading\init.sqf",(_traderMenu select 0), 999, true, false];
+					s_player_parts set [count s_player_parts,_buyV];
+```
 
 Open your init.sqf and insert
 ```
