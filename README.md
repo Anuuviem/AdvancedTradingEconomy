@@ -22,9 +22,9 @@ if (DZE_ConfigTrader) then {
 
 Open your init.sqf and insert
 ```
-_adv_economyFluc = [] execVM "dayz_code\actions\AdvancedTrading\functions\adv_econFluc.sqf";
+[] execVM "dayz_code\actions\AdvancedTrading\functions\adv_econFlucArray.sqf";
 ```
-inside the brackets {} at the bottom of if (isServer)
+at the bottom
 
 open your Description.ext and insert
 ```
