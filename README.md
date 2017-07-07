@@ -2,6 +2,7 @@
 Applies a random variable to modify trader prices on server startup
 
 Install
+
 This all assumes you already have custom compiles.sqf and fn_selfActions.sqf. Especially considering you should have installed zupas single currency to even make use of this script!
 
 copy Advanced trading folder to dayz_code\actions\ in your mission folder (or be sure to change the paths with wherever you install it!)
